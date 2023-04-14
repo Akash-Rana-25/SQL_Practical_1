@@ -18,9 +18,9 @@ GO
 INSERT INTO Product VALUES('Vivo','Mobile','20000','vivo is a world leading brand of innovative smartphones');
 INSERT INTO Product VALUES('IPhone14','Mobile','100000','Powerful. Beautiful. Durable. 5G');
 INSERT INTO Product VALUES('Apple','Frute','30','Is a frute');
-INSERT INTO Product VALUES('sanitizer','Helth','500','use to clean Hands');
-INSERT INTO Product VALUES('medicine','Helth','20','Take When You are not feeling well');
-INSERT INTO Product VALUES('injection','Helth','150','Take when You have a fever');
+INSERT INTO Product VALUES('sanitizer','Health','500','use to clean Hands');
+INSERT INTO Product VALUES('medicine','Health','20','Take When You are not feeling well');
+INSERT INTO Product VALUES('injection','Health','150','Take when You have a fever');
 INSERT INTO Product VALUES('bat','sports','1000','Used to play cricket');
 INSERT INTO Product VALUES('football','sports','500','from Adidas');
 INSERT INTO Product VALUES('vollyball','sports','1100','from Nike');
@@ -29,7 +29,7 @@ INSERT INTO Product VALUES('shorts','clothing','500','summer fashion');
 GO
 
 --Query to List all the products belonging to health category
-Select * from Product where productCategroy='Helth';
+Select * from Product where productCategroy='Health';
 Go
 
 -- Query to get total price of all products
